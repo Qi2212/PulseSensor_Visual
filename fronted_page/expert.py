@@ -6,7 +6,7 @@ import json
 db_config = {
     'host': '127.0.0.1',
     'user': 'root',
-    'password': 'Xsq031124',
+    'password': '',
     'database': 'sensor',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor,
@@ -81,7 +81,7 @@ def sql_Agent_pulse(prompt,available_functions):
 
 
 
-api_key = "0dfe4c124d9e14f2773216275f5ec7f8.FB35WYyZoKg92cD8"
+api_key = "your api key here"
 st.set_page_config(page_title='TYUT - ChatGLM智能建议',  layout='wide', page_icon=':robot:')
 
 st.title("💬 智能建议专家")
